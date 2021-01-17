@@ -3,9 +3,9 @@ Windows Subsystem for Linux -WSL
 
 The:
 
-- How - [Installation instruction](#-Installation),
+- [How](#-Installation),
 - [Why](#-Why) and
-- Why not.
+- [Why not](#-Why-Not).
 
 # Installation
 Simple installation for Windows 10 OS Build 20262 or higher
