@@ -66,18 +66,28 @@ Requirements my working, studies and testing environment:
 Technology stack:
 
 - WLS to run:
- - LaTeX - For writing papers
- - PlantUML - For writing modeling, diagrams and flowcharts
- - Graphviz - For mindmaps, diagrams and flowcharts
- - Inkscape
- - VScode
- - Python
- - SQLite
- - Pandas
+  - LaTeX - For writing papers
+  - PlantUML - For writing modeling, diagrams and flowcharts
+  - Graphviz - For mindmaps, diagrams and flowcharts
+  - Inkscape
+  - VScode
+  - Python
+  - SQLite
+  - Pandas
 
-With LaTeX, a type setting tool, to create professional looking papers and slides with math formulas etc to PDF. PlantUML, combined with Graphviz and inkscape, to code models and diagram to be rendered to png or svg files. Python for programming, SQLite for databse etc. are the tech stack which enables me to do everything I want from VScode.
+Using LaTeX, a type setting tool, to create professional looking papers and slides with math formulas etc to PDF.
 
-Making collaboration, tracking changes and sharing via GitHub a breeze. The working folders are kept small and manageble, easy to backup and transfer. Once can comfortably work from a Raspberry-Pi 4 (4GB). Work environment can be tucked in a pocket, provided destination has a screen and a set of mouse and keyboards. My 2007 hardware (Core i5 2series, on 4 GB of ram on 125GB HDD laptop) is all that is required to get working.
+PlantUML, combined with Graphviz and inkscape, to code models and diagram to be rendered to png or svg files.
+
+Python for programming, SQLite for databse etc. are the tech stack which enables me to do everything I want from VScode.
+
+Making collaboration, tracking changes and sharing via GitHub a breeze.
+
+The working folders are kept small and manageble, easy to backup and transfer.
+
+Once can comfortably work from a Raspberry-Pi 4 (4GB). Work environment can be tucked in a pocket, provided destination has a screen and a set of mouse and keyboards.
+
+My 2007 hardware (Core i5 2series, on 4 GB of ram on 125GB HDD laptop) is all that is required to get working.
 
 # Why Not
 WSL is not a virtual machine. It must not be perceived as security precaution as secure as a Virtual Machine installation.
