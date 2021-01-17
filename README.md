@@ -54,7 +54,7 @@ Developers may need to spin up some servers to develop and test a web applicatio
 There is the option to install and run docker from windows. However, I would provided a counter-argument for on the next use case.
 
 ### Example to use case - Small Footprint, Clean Environment
-I would prefer to run Docker from WSL. From maintainability and recovery point of view, I recommend to minimize the amount of software ones installs on a system. Avoid installing software for testing, just to be uninstalled again. This may introduce bugs, incompatibilities and ultimately bog down the system. Installing too many untested application is also a risk from the security point of view. A WSL distribution can be easily deleted, upgraded or replaced without leaving a whole lot of temporary configuration files, DLLs, etc on the host system.
+I would prefer to run Docker from WSL. From maintainability and recovery point of view, I recommend minimizing the amount of software installed on a system. Specially avoid installing software for testing, just to be uninstalled again, on ones "production" environment. This may introduce bugs, incompatibilities and ultimately bog down the system. Installing too many untested application is also a risk from the security point of view. A WSL distribution can be easily deleted, upgraded or replaced without leaving a whole lot of temporary configuration files, DLLs, etc on the host system.
 
 ## A concrete example
 Requirements for my working, studies and testing environment:
