@@ -57,7 +57,7 @@ There is the option to install and run docker from windows. However, I would pro
 I would prefer to run Docker from WSL. From maintainability and recovery point of view, I recommend to minimize the amount of software ones installs on a system. Avoid installing software for testing, just to be uninstalled again. This may introduce bugs, incompatibilities and ultimately bog down the system. Installing too many untested application is also a risk from the security point of view. A WSL distribution can be easily deleted, upgraded or replaced without leaving a whole lot of temporary configuration files, DLLs, etc on the host system.
 
 ## A concrete example
-Requirements my working, studies and testing environment:
+Requirements for my working, studies and testing environment:
 
 - Windows 10 Pro is a requirement for peripheral device compatibility and other specific applications. Windows 10 just works.
 - Free and OpenSource Software for compatibility, stability, security and its free.
@@ -77,7 +77,7 @@ Technology stack:
   - SQLite
   - Pandas
 
-Using LaTeX, a type setting tool, to create professional looking papers and slides with math formulas etc to PDF. PlantUML, combined with Graphviz and inkscape, to code models and diagram to be rendered to png or svg files. Python for programming, SQLite for databse etc. are the tech stack which enables me to do everything I want from VScode.
+Using LaTeX, a type setting tool, to create professional looking papers and slides with math formulas etc rendered to PDF. PlantUML, combined with Graphviz and inkscape, to code models and diagrams to be rendered to png or svg files. Python for programming, SQLite for databse etc. are the tech stack which enables me to do everything I need from VScode.
 
 The stack makes collaboration, tracking changes and sharing via GitHub a breeze. The working folders are kept small and manageble, easy to backup and transfer. One can comfortably work from a Raspberry-Pi 4 (4GB). Provided the destination has a spare screen and a set of mouse and keyboards, the "PC" can be easily tucked in a pocket. My 2007 hardware (Core i5 2series, on 4 GB of ram on 125GB HDD laptop) has proved itself to be all that is required to get working.
 
