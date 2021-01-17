@@ -8,12 +8,14 @@ The:
 - [Why not](#-Why-Not).
 
 # Installation
-Simple installation for Windows 10 OS Build 20262 or higher
+## Simple installation for Windows 10 OS Build 20262 or higher
 
 | Step # |	Description	| Command	| Comment |
 |--------|--------------|---------|---------|
 | 1	| Install WSL	| wsl.exe --install |	Run command then restart is required by system |
 | 2	| List all Linux distributions available from Microsft | wsl --list --online | Follow steps from step  # 5 in the table below.|
+
+## Older (pre 20H2) Windows 10 
 
 | Step # |	Description	| Command	| Comment |
 |--------|--------------|---------|---------|
