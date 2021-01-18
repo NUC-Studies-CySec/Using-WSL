@@ -39,29 +39,28 @@ Disclaimer:
 ## Use case
 The "why" is perhaps best explained with use case arguments. I personally use WSL to:
 
-1) **Access to tools:** Use Linux tools from within Windows without having to use a dedicated Virtual Machine installation
-1) **Compartmentalization:** Use different Linux environments for diffferent purposes. 1 each for testing, production etc.
-1) **Small Footprint, Clean Environment:** Minimize installed applications on the Windows host.
+1) **Have access to Linux tools:** Use Linux tools from within Windows without having to use a dedicated Virtual Machine installation
+1) **Compartmentalize working environment:** Use different Linux environments for diffferent purposes. 1 each for testing, production etc.
+1) **Clean host environment:** Minimize installed applications on the Windows host.
 
-### Example to use case - Access to tools
+### Use case - Have access to Linux tools
 Having WSL gives access to a plethora Linux tools. Cygwin users will understand this immediately. Granted, many tools and applications are also available in windows. On the otherhand, having applications and tools running from WSL makes the "host" windows enviornment "clean".
 
 Tools such as nmap, sqlmap, Nikto, awk, sed etc are available from WSL. WSL also enables one to run and test servers, application and services, which is best explained with next argument.
 
-### Example to use case - Compartmentalization
-Developers may need to spin up some servers to develop and test a web application. Perhaps one needs to test different versions of said web application. This can easily be done from WSL. WSL also portable in that it can be packed, transfers and installed on another machine.
+### Use case - Compartmentalize working environment
+Developers may need to maintain GitHub repositories from different accounts. Spin up different servers to develop and test a web application. This can easily be done with WSL. WSL provides portability in that it can be packed, transfered and installed on another machine.
 
-There is the option to install and run docker from windows. However, I would provided a counter-argument for on the next use case.
+There are other options availiable, like running docker from windows which provides the similar compartmentalization. Lets examine how WSL may be better in the next use case.
 
-### Example to use case - Small Footprint, Clean Environment
-I would prefer to run Docker from WSL. From maintainability and recovery point of view, I recommend minimizing the amount of software installed on a system. Specially avoid installing software for testing, just to be uninstalled again, on ones "production" environment. This may introduce bugs, incompatibilities and ultimately bog down the system. Installing too many untested application is also a risk from the security point of view. A WSL distribution can be easily deleted, upgraded or replaced without leaving a whole lot of temporary configuration files, DLLs, etc on the host system.
+### Use case - Clean host environment
+I would prefer to run Docker from within WSL. From maintainability and recovery point of view, I recommend minimizing the amount of software installed on a system. Specially avoid installing software for testing on a "production" environment. This may introduce bugs, incompatibilities and ultimately bog down the system. Installing too many untested application is also a risk from the security point of view. A WSL distribution can be easily deleted, upgraded or replaced without leaving a whole lot of temporary configuration files, DLLs, etc on the host system.
 
 ## A concrete example
 Requirements for my working, studies and testing environment:
 
-- Windows 10 Pro is a requirement for peripheral device compatibility and other specific applications. Windows 10 just works.
-- Free and OpenSource Software for compatibility, stability, security and its free.
-- Cross-platform compatibility
+- Windows 10 Pro is a requirement for peripheral device compatibility and other specific applications (Windows 10 just works).
+- Free and OpenSource Software for cross platform compatibility, stability, and its free.
 - Minimal footprint
 - Transportability
 
@@ -74,12 +73,13 @@ Technology stack:
   - Inkscape
   - VScode
   - Python
+  - Anaconda/Jupyter Notebook
   - SQLite
   - Pandas
 
-Using LaTeX, a type setting tool, to create professional looking papers and slides with math formulas etc rendered to PDF. PlantUML, combined with Graphviz and inkscape, to code models and diagrams to be rendered to png or svg files. Python for programming, SQLite for databse etc. are the tech stack which enables me to do everything I need from VScode.
+Using LaTeX, a type setting tool, to create professional looking papers and slides with math formulas etc rendered to PDF. PlantUML, combined with Graphviz and inkscape, to code models and diagrams to be rendered to png or svg files. Python for programming, SQLite for databse etc. are the tech stack which enables me to do everything I need from VScode to submit course assigments and papers
 
-The stack makes collaboration, tracking changes and sharing via GitHub a breeze. The working folders are kept small and manageble, easy to backup and transfer. One can comfortably work from a Raspberry-Pi 4 (4GB). Provided the destination has a spare screen and a set of mouse and keyboards, the "PC" can be easily tucked in a pocket. My 2007 hardware (Core i5 2series, on 4 GB of ram on 125GB HDD laptop) has proved itself to be all that is required to get working.
+The stack makes collaboration, tracking changes and sharing via GitHub a breeze. The working folders are kept small and manageble, easy to backup and transfer. One can comfortably work from an old computer, even a Raspberry-Pi 4. Provided the destination has a spare screen and a set of mouse and keyboards, the Pi can be easily tucked in a pocket. My 2007 hardware (Core i5 2series, on 4 GB of ram on 125GB HDD laptop) has proved itself to be all that is required to get working.
 
 # Why Not
 WSL is not a virtual machine. It must not be perceived as security precaution as secure as a Virtual Machine installation.
