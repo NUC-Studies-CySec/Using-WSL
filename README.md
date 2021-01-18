@@ -69,8 +69,8 @@ Technology stack:
 
 - WLS to run:
   - LaTeX - For writing papers
-  - PlantUML - For writing modeling, diagrams and flowcharts
-  - Graphviz - For mindmaps, diagrams and flowcharts
+  - PlantUML - For writing models, diagrams and flowcharts
+  - Graphviz - For rendering models, diagrams and flowcharts
   - Inkscape
   - VScode
   - Python
