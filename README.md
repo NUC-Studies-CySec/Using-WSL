@@ -12,7 +12,7 @@ The:
 
 | Step # |	Description	| Command	| Comment |
 |--------|--------------|---------|---------|
-| 1	| Install WSL	| wsl.exe --install |	Run command then restart is required by system |
+| 1	| Install WSL	| wsl.exe --install |	Run command, then restart the system (is required by). |
 | 2	| List all Linux distributions available from Microsft | wsl --list --online | Follow steps from step  # 4 in the table below.|
 
 ## Older (version 20H2 or lower) Windows 10 
