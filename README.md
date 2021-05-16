@@ -8,7 +8,7 @@ The:
 - [Why not](#-Why-Not).
 
 # Installation
-## Simple installation for new Windows 10 OS (Version 20H2, Build 19042.746 or higher)
+## Simple installation for Windows 10 Insiders Edition (Version 20H2, Build 19042.746 or higher)
 
 | Step # |	Description	| Command	| Comment |
 |--------|--------------|---------|---------|
