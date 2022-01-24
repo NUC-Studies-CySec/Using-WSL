@@ -8,14 +8,14 @@ The:
 - [Why not](#-Why-Not).
 
 # Installation
-## Simple installation for new Windows 10 OS (Version 20H2, Build 19042.746 or higher)
+## Simple installation for Windows 10 Insiders Edition (Version 20H2, Build 19042.746 or higher)
 
 | Step # |	Description	| Command	| Comment |
 |--------|--------------|---------|---------|
 | 1	| Install WSL	| wsl.exe --install |	Run command, then restart the system (is required by). |
 | 2	| List all Linux distributions available from Microsft | wsl --list --online | Follow steps from step  # 4 in the table below.|
 
-## Older (version 20H2 or lower) Windows 10 
+## Windows 10 (version 20H2 or lower) 
 
 | Step # |	Description	| Command	| Comment |
 |--------|--------------|---------|---------|
